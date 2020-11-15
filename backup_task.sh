@@ -3,7 +3,7 @@
 dir=`dirname "$0"`
 cd $dir
 
-tail -1 back.log > back.log
+tail -1 backup.log > backup.log
 
 starttime=$(date +%Y-%m-%d\ %H:%M:%S)
 echo "=======$starttime========开始备份任务=============="
