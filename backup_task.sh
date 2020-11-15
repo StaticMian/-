@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-starttime=$(date +%Y-%m-%d\ %H:%M:%S)
-echo "=======$starttime========开始备份任务=============="
-
 dir=`dirname "$0"`
 cd $dir
+
+tail -1 back.log > back.log
+
+starttime=$(date +%Y-%m-%d\ %H:%M:%S)
+echo "=======$starttime========开始备份任务=============="
 
 git add .  
 git commit -m "good"
