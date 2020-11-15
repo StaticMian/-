@@ -3,8 +3,8 @@
 dir=`dirname "$0"`
 cd $dir
 
-tail -n 1 backup.log > backup.log
-tail -n 1 backup.err > backup.err
+tail -n 10 backup.log > backup.log
+tail -n 10 backup.err > backup.err
 
 
 starttime=$(date +%Y-%m-%d\ %H:%M:%S)
