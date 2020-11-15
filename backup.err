@@ -2,3 +2,8 @@ remote: This repository moved. Please use the new location:
 remote:   git@github.com:StaticMian/NetWorkLearningMaterials.git        
 To github.com:StaticMian/HRDS.git
    c964b63..8d76b3f  master -> master
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
