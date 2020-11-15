@@ -2,7 +2,7 @@
 
 starttime=$(date +%Y-%m-%d\ %H:%M:%S)
 echo $starttime
-echo "===============开始备份任务=============="
+echo "=======$starttime========开始备份任务=============="
 
 dir=`dirname "$0"`
 cd $dir

@@ -7,3 +7,7 @@ fatal: Not a git repository (or any of the parent directories): .git
 fatal: Not a git repository (or any of the parent directories): .git
 fatal: Not a git repository (or any of the parent directories): .git
 fatal: Not a git repository (or any of the parent directories): .git
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:StaticMian/NetWorkLearningMaterials.git        
+To github.com:StaticMian/HRDS.git
+   9f96b88..9e01add  master -> master
