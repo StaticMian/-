@@ -2,9 +2,12 @@
 
 starttime=$(date +%Y-%m-%d\ %H:%M:%S)
 echo $starttime
-echo "===============开始备份任务==============\n"
+echo "===============开始备份任务=============="
 
-git add .
+dir=`dirname "$0"`
+cd $dir
+
+git add .  
 git commit -m "good"
 git push 
 
